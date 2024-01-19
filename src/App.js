@@ -1,10 +1,14 @@
 import './App.css';
+import About from './Components/About';
+import Home from './Components/Home';
+import Testimonial from './Components/Testimonial';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi</h1>
-      <h1>THis is restaurant landing page</h1>
+      <Home/>
+      <About/>
+      <Testimonial/>
     </div>
   );
 }
